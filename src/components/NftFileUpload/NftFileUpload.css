@@ -1,0 +1,82 @@
+.NftFileUpload {
+    margin-top: 40px !important;
+    position: relative;
+    margin: 24px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.NftFileUpload .subheader {
+    margin-top: 50px;
+    margin-left: 25% !important;
+    text-align: left;
+}
+
+.NftFileUpload .subheader1 {
+    margin-top: 30px;
+    margin-left: 25% !important;
+    text-align: left;
+}
+
+.NftFileUpload .dropzone{
+    cursor: pointer;
+    border-style: dotted;
+    background: rgba(var(--bluish-steel-raw), 0.12);
+    width: 50%;
+    margin: 24px auto;
+    border-radius: 8px;
+    border-color: purple;
+    border-width: 2px;
+    min-height: 50%;
+    /* margin-bottom: 50px; */
+    flex: auto;
+}
+
+.NftFileUpload .dropzone .dropChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NftFileUpload .subheader1 input {
+    width: 66.7%;
+    min-height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.NftFileUpload .nextButton {
+    background-color: coral;
+    font-weight: 500;
+    font-size: large;
+    line-height: 1.25rem;
+    text-align: center;
+    padding: 0.625rem 1.25rem;
+    border-radius: 10px;
+    border-color: coral;
+    cursor: pointer;
+    width: 10%;
+    max-height: 40px;
+    min-width: 100px;
+}
+
+.NftFileUpload .backButton {
+    background-color: aliceblue;
+    font-weight: 500;
+    font-size: large;
+    line-height: 1.25rem;
+    text-align: center;
+    padding: 0.625rem 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: purple;
+    width: 10%;
+    max-height: 40px;
+    min-width: 100px;
+}
+
+.NftFileUpload .buttonBox {
+    margin-top: 50px;
+    column-count: 2;
+}
